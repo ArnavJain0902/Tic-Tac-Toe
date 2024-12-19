@@ -358,4 +358,7 @@ ol {
     flex-direction: column;
     text-align: center;
   }
+  .player-symbol{
+    margin: 0;
+  }
 }
