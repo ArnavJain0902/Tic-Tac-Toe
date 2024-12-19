@@ -349,3 +349,13 @@ ol {
     transform: scale(1);
   }
 }
+
+@media (max-width:520px){
+  ol{
+    flex-direction: column;
+  }
+  li{
+    flex-direction: column;
+    text-align: center;
+  }
+}
