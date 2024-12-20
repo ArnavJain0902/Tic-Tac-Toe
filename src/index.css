@@ -351,8 +351,12 @@ ol {
 }
 
 @media (max-width:520px){
-  ol{
+  #game-container{
+    padding: 0;
+  }
+  #players{
     flex-direction: column;
+    gap: 0;
   }
   li{
     flex-direction: column;
